@@ -1,69 +1,55 @@
-# sample-beginner-stuck-points — Strategy (article backlog)
+# sample-beginner-stuck-points — Strategy
 
-## Article Backlog
+Synthetic example showing all three content types.
 
-### Phase 1: Ship this week
-1. **What is a stage contract?** — Pillar: Stage Contracts Made Simple — Owner: David — Voice: `shared/voices/david.md`
-2. **Stop the one-shot rewrite** — Pillar: Beginner Friction & Fixes — Owner: Mod 1 — Voice: `shared/voices/mod-1.md`
+## Classroom articles (type 1)
 
-### Phase 2: Next up
-3. **CLAUDE.md vs CONTEXT.md** — Pillar: Folder Anatomy for Beginners — Owner: Mod 2 — Voice: `shared/voices/mod-2.md`
-4. **Translator ≠ summarizer** — Pillar: Stage Contracts Made Simple — Owner: David — Voice: `shared/voices/david.md`
+### Phase 1
+1. **What is a stage contract?** — Owner: David — `shared/voices/david.md`
+2. **Stop the one-shot rewrite** — Owner: Mod 1 — `shared/voices/mod-1.md`
 
-### Parked
-- **Your first tiny workspace** — Schedule after the four teaching posts so readers have contract literacy first
+### Phase 2
+3. **CLAUDE.md vs CONTEXT.md** — Owner: Mod 2 — `shared/voices/mod-2.md`
 
 ---
 
-### Article: What is a stage contract?
+### Classroom article: What is a stage contract?
 
+**Content type:** Classroom article
 **Idea IDs:** ID-001
 **Pillar:** Stage Contracts Made Simple
 **Owner:** David
 **Voice file:** `shared/voices/david.md`
-**Draft by:** (set in mod meeting)
+**Paired announcement:** below
 
-**Beginner problem:** They hear Inputs / Process / Outputs but freeze when writing CONTEXT.md.
-**After reading they can:** Fill a one-stage contract for a workflow they already do by hand.
+**Beginner problem:** They freeze writing Inputs / Process / Outputs.
+**After reading they can:** Fill one stage contract for a real task.
 
-**Audience level:** New member
-**Prerequisites:** None
-
-**Outline:**
-1. Hook — "I don't know what to write"
-2. Contract = promise about files in and files out
-3. Tiny example (meeting notes → three bullets)
-4. Inputs table without jargon
-5. Checkpoint — why humans edit between stages
-6. Try-this — write one contract tonight
-7. Bridge — Foundation + next friction post
-
-**Engagement hook:** Reply with your Inputs line for one real task
-**Drafting rule:** Load only David's voice file
+**Outline:** Hook → contract as promise → tiny example → Inputs table → checkpoint → try-this → bridge
 
 ---
 
-### Article: Stop the one-shot rewrite
+## Announcements (type 2)
 
-**Idea IDs:** ID-004
-**Pillar:** Beginner Friction & Fixes
-**Owner:** Mod 1
-**Voice file:** `shared/voices/mod-1.md`
-**Draft by:** (set in mod meeting)
+### Announcement: Stuck on Inputs / Process / Outputs?
 
-**Beginner problem:** The agent ignores stage folders and rewrites the whole project.
-**After reading they can:** Run one stage, stop, edit `output/`, then continue.
+**Content type:** Announcement / pointer post
+**Points to article:** What is a stage contract?
+**Owner:** David
+**Voice file:** `shared/voices/david.md`
 
-**Audience level:** Early ICM
-**Prerequisites:** Has a folder with at least one stage
+**Beats:** Name the freeze → promise one worked example in the classroom → link + CTA → ask them to reply with their Inputs line
 
-**Outline:**
-1. Hook — trust break story
-2. What "edit surface" means
-3. Bad prompt vs good stage trigger
-4. Checklist before hitting enter
-5. Try-this — force a checkpoint on stage 01
-6. Bridge — stage contract article
+**Must not:** Teach the full contract in the feed post.
 
-**Engagement hook:** Poll — has an agent one-shot your folder?
-**Drafting rule:** Load only Mod 1's voice file
+---
+
+## Everyday response sketches (type 3)
+
+### Everyday response: "Is a translator just a summarizer?"
+
+**Content type:** Everyday response
+**Responder:** Mod 2
+**Voice file:** `shared/voices/mod-2.md`
+**Reply goal:** Clarify fixed-shape output vs summary; link classroom article when it exists
+**Optional article to cite:** Translator ≠ summarizer (Phase 2 candidate)

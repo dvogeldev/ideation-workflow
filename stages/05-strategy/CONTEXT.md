@@ -1,71 +1,61 @@
 # Stage 05 — Strategy & Delivery Plan
 
-Take the prioritized and classified list from Stage 04 and produce an actionable delivery strategy. For Clief Notes beginner engagement, prefer **article briefs** for teaching-shaped ideas. For MWP-track build items, outline the workspace. For Software-track items, outline the technical approach. Align everything to a content calendar that reinforces the channel.
+Take the prioritized list from Stage 04 and produce an actionable delivery strategy for Clief Notes.
+
+**Default deliverables (three content types):**
+1. Classroom articles
+2. Announcement / pointer posts to those articles
+3. Everyday response guidance when themes are recurring (optional batch output)
+
+Also outline MWP workspaces or software when an idea is build-shaped.
 
 ## Inputs
 
 | Source | File/Location | Section/Scope | Why |
 |--------|--------------|---------------|-----|
-| Previous stage | `../04-prioritization/output/` | Most recent priorities file (full) | Ranked and classified ideas |
-| Previous stage | `../01-intake/output/` | Most recent idea cards (full) | Original detail for deliverable specs |
-| Config | `../../_config/mwp-fit-checklist.md` | Full file | MWP workspace requirements |
-| Shared | `../../shared/channel-alignment.md` | Full file | Pillars, audience, goals |
-| Shared | `../../shared/voices/README.md` | Full file | Owner → brand voice mapping |
-| Reference | `references/delivery-templates.md` | Full file | Strategy document format |
-| Reference | `references/article-brief-template.md` | Full file | Beginner article brief format |
+| Previous stage | `../04-prioritization/output/` | Most recent priorities file (full) | Ranked ideas |
+| Previous stage | `../01-intake/output/` | Most recent idea cards (full) | Original detail |
+| Config | `../../_config/mwp-fit-checklist.md` | Full file | MWP vs software |
+| Shared | `../../shared/channel-alignment.md` | Full file | Pillars, audience |
+| Shared | `../../shared/content-types.md` | Full file | Three content types |
+| Shared | `../../shared/voices/README.md` | Full file | Owner → voice |
+| Reference | `references/delivery-templates.md` | Full file | Strategy format |
+| Reference | `references/article-brief-template.md` | Full file | Type 1 |
+| Reference | `references/announcement-brief-template.md` | Full file | Type 2 |
+| Reference | `references/everyday-response-template.md` | Full file | Type 3 |
 
 ## Process
 
-1. Read priorities from `../04-prioritization/output/`
-2. Split items into **teaching-shaped** (article-first) vs **build-shaped** (MWP/software)
-3. For each **teaching-shaped** item (starting from highest priority):
-   - Produce an article brief using `article-brief-template.md`
-   - Assign a tentative owner and voice file from `shared/voices/`
-   - Note pillar, engagement hook, and draft-by suggestion
-4. For each **MWP-track** build item (starting from highest priority):
-   - Outline the workspace: how many stages, what each stage does, what the pipeline transforms
-   - Note which content pillar it feeds and what channel content the build process would generate
-   - Estimate scope: can it be built with the workspace-builder, or does it need custom design?
-   - Note what community value it delivers and how it would be handed off
-5. For each **Software-track** item (starting from highest priority):
-   - Outline the technical approach: what needs to be built, what stack, what integrations
-   - Note whether any MWP components could handle part of the workflow
-   - Estimate scope and key technical decisions
-6. For **Hybrid** items: split into MWP portion and software portion with clear boundaries
-7. Sequence the delivery order:
-   - Article quick wins first (high beginner impact, low effort)
-   - Then heavier articles or MWP builds
-   - Group items that share a pillar or can be published as a series
-8. Map deliverables to a content plan and confirm each assigned article names exactly one voice file
-9. **[Checkpoint]** Present strategy to user / mod team
-   - Validate delivery sequence and owners
-   - Confirm content plan alignment
-   - Approve or adjust scope for top priorities
-10. Incorporate feedback
-11. Run audit checks
-12. Save to output/
+1. Read priorities from Stage 04
+2. Mark each top item teaching-shaped vs build-shaped
+3. For teaching-shaped items (highest first):
+   - Produce a **classroom article** brief (type 1)
+   - Produce a paired **announcement** brief (type 2)
+   - Assign owner + single voice file for both
+4. If the batch includes recurring in-thread themes, add 1–3 **everyday response** sketches (type 3) mods can reuse
+5. For MWP/software/hybrid build items: outline as in delivery-templates
+6. Sequence: article+announcement quick wins first, then heavier pieces / builds
+7. **[Checkpoint]** Mod team validates owners, pairing, and sequence
+8. Incorporate feedback, audit, save to output/
 
 ## Checkpoint
 
 | After Step | Agent Presents | Human Decides |
 |------------|---------------|---------------|
-| 9 | Full strategy: article briefs (with owners/voices), MWP outlines, software specs, delivery sequence, content plan | Validate sequence, assign owners, adjust scope, approve top priorities |
+| 7 | Article briefs, paired announcements, optional everyday-response sketches, any MWP/software outlines | Assign owners, approve sequence |
 
 ## Audit
 
 | Check | Pass Condition |
 |-------|---------------|
-| Full coverage | Every item from Stage 04's top priorities has a delivery outline |
-| Article briefs | Every teaching-shaped top item has: pillar, owner, voice file, outline, engagement hook |
-| Single voice | No article brief references more than one voice file |
-| MWP workspace specs | Every MWP-track build item has: stage count, stage purposes, pipeline transformation, scope estimate |
-| Software specs | Every Software-track item has: technical approach, stack, key decisions |
-| Delivery sequence | Items are ordered with rationale (not just priority score — considers dependencies and quick wins) |
-| Content mapping | At least the top 5 deliverables have associated content plan entries |
-| Thesis reinforcement | Strategy explicitly notes which deliverables demonstrate the MWP/ICM thesis |
+| Type labeled | Every brief states content type 1, 2, or 3 |
+| Pairing | Every new classroom article has an announcement brief |
+| Single voice | Each brief names exactly one voice file |
+| No blend | Announcements don't teach the full lesson; replies stay short |
+| Coverage | Top Stage 04 priorities have a delivery outline |
 
 ## Outputs
 
 | Artifact | Location | Format |
 |----------|----------|--------|
-| Delivery strategy | `output/[batch-slug]-strategy.md` | Markdown with article backlog/briefs, workspace outlines, software specs, delivery sequence, content plan |
+| Delivery strategy | `output/[batch-slug]-strategy.md` | Article backlog, paired announcements, optional reply sketches, build outlines |
