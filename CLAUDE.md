@@ -1,5 +1,7 @@
 # Ideation Workflow
 
+**Fork config:** Pre-configured for [Clief Notes](https://www.skool.com/cliefnotes) with Community-first scoring weights. See `shared/channel-alignment.md` and `_config/evaluation-criteria.md`.
+
 Community request analysis and workspace delivery pipeline. Takes raw ideas and requests from community DMs, analyzes patterns, evaluates feasibility, prioritizes by impact, and classifies each into MWP-workspace (deliverable as a folder-based workflow) or software-required (needs custom code/app/infrastructure). The final output is an actionable strategy that aligns deliverables with channel content and the MWP research paper.
 
 ## Folder Map
