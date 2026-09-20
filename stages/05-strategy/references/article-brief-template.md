@@ -7,7 +7,8 @@ Use this for teaching-shaped ideas on the Clief Notes beginner track. Produce on
 
 **Idea IDs:** [ID-00X, …]
 **Pillar:** [First Steps & Mental Models | Folder Anatomy for Beginners | Stage Contracts Made Simple | Your First Workspace | Beginner Friction & Fixes]
-**Owner:** [unassigned | mod name]
+**Owner:** [unassigned | David | Mod name]
+**Voice file:** [`shared/voices/[owner].md`](../../../shared/voices/)
 **Draft by:** [date]
 
 **Beginner problem:** [One sentence — what they are stuck on today]
@@ -28,6 +29,8 @@ Use this for teaching-shaped ideas on the Clief Notes beginner track. Produce on
 **Related Foundation / Skool links:** [titles or URLs if known]
 **Optional follow-on:** [None | Mini workspace | Competition prompt]
 
+**Drafting rule:** Load only the owner's voice file from `shared/voices/`. Do not blend multiple brand voices in one article.
+
 **Why this ranks now:** [Impact + channel fit in one sentence]
 ```
 
@@ -36,4 +39,4 @@ Use this for teaching-shaped ideas on the Clief Notes beginner track. Produce on
 - Readable in one sitting (~5–10 minutes)
 - No framework jargon without a plain-language gloss
 - Ends with a doable action, not only inspiration
-- Sounds like a mod helping a beginner, not a research abstract
+- Sounds like the assigned owner's brand voice, not a generic research abstract
