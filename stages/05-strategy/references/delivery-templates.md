@@ -1,5 +1,28 @@
 # Delivery Strategy Format
 
+## Article Brief (Clief Notes beginner track)
+
+For teaching-shaped ideas, produce an article brief using `article-brief-template.md`. Prefer this over (or ahead of) a full MWP workspace outline when the near-term delivery is a Skool post.
+
+Include in the strategy doc:
+
+```markdown
+## Article Backlog
+
+### Phase 1: Ship this week
+1. **[Title]** — Pillar: […] — Owner: […] — [Why first]
+
+### Phase 2: Next up
+2. ...
+
+### Parked teaching ideas
+- **[Title]** — [Why parked]
+```
+
+Then embed full briefs for Phase 1–2 items using the article brief template.
+
+---
+
 ## MWP Workspace Outline
 
 For each MWP-track item, produce:
@@ -54,15 +77,15 @@ For each Software-track item, produce:
 ## Delivery Sequence
 
 ### Phase 1: Quick Wins (Target: [timeframe])
-1. **[Name]** — [MWP/Software] — [Why first: high impact + low effort]
+1. **[Name]** — [Article/MWP/Software] — [Why first: high impact + low effort]
 2. ...
 
 ### Phase 2: High Impact (Target: [timeframe])
-3. **[Name]** — [MWP/Software] — [Why this phase: high value, moderate effort]
+3. **[Name]** — [Article/MWP/Software] — [Why this phase: high value, moderate effort]
 4. ...
 
 ### Phase 3: Strategic Bets (Target: [timeframe])
-5. **[Name]** — [MWP/Software] — [Why later: high effort or dependent on earlier work]
+5. **[Name]** — [Article/MWP/Software] — [Why later: high effort or dependent on earlier work]
 6. ...
 
 ### Parked
@@ -76,5 +99,5 @@ For each Software-track item, produce:
 
 | Deliverable | Content Piece | Pillar | Thesis Connection |
 |-------------|--------------|--------|-------------------|
-| [Workspace/project name] | [Type: walkthrough/demo/story] | [Pillar name] | [How it demonstrates MWP/ICM] |
+| [Article/workspace/project name] | [Type: beginner article/walkthrough/demo/story] | [Pillar name] | [How it demonstrates MWP/ICM] |
 ```
