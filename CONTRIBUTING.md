@@ -8,7 +8,7 @@ Upstream template: [banbury-cheese/ideation-workflow](https://github.com/banbury
 
 | Role | How you help |
 |------|----------------|
-| **Clief Notes mods** | Run batches, edit stage outputs, assign article briefs |
+| **Clief Notes mods** | Run batches, edit stage outputs, assign article briefs in your brand voice |
 | **Community members** | Suggest beginner topics, share stuck points, improve rubrics/examples |
 | **Upstream contributors** | Prefer PRs that improve ICM stage contracts generally; fork-specific Clief Notes copy lives in `shared/` and this CONTRIBUTING |
 
@@ -18,9 +18,14 @@ Upstream template: [banbury-cheese/ideation-workflow](https://github.com/banbury
 2. Open the workspace in Claude Code (or your usual agent) and run `intake`.
 3. Review each stage output before continuing — edit freely; the next stage reads what you leave.
 4. At Stage 05, prefer **article briefs** for teaching-shaped ideas (see `stages/05-strategy/references/article-brief-template.md`).
-5. Assign top briefs across the three of you; park the rest.
+5. Assign top briefs across the three of you — each brief names one owner and one file in `shared/voices/`.
+6. Park the rest.
 
-See `examples/sample-beginner-batch/` for a complete synthetic run.
+See `docs/MODS.md` for cadence and `examples/sample-beginner-batch/` for a synthetic run.
+
+## Brand voices
+
+Do not commit voice docs that shouldn't be public without agreement. Placeholders live in `shared/voices/`. Each article loads **only** its owner's voice file.
 
 ## What to contribute
 
@@ -40,6 +45,7 @@ See `examples/sample-beginner-batch/` for a complete synthetic run.
 - [ ] No new `{{placeholders}}` left behind
 - [ ] Stage contracts still have Inputs / Process / Outputs (and Checkpoint/Audit where present)
 - [ ] Examples labeled synthetic if not from a real community batch
+- [ ] Article briefs reference at most one voice file
 - [ ] LICENSE remains MIT
 
 ## License
