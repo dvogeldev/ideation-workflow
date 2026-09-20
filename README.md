@@ -1,10 +1,12 @@
 # Ideation Workflow
 
-> **This fork** is pre-configured for [Clief Notes](https://www.skool.com/cliefnotes) with **Community-first** scoring. See [`shared/channel-alignment.md`](shared/channel-alignment.md) and [`_config/evaluation-criteria.md`](_config/evaluation-criteria.md). Upstream template: [banbury-cheese/ideation-workflow](https://github.com/banbury-cheese/ideation-workflow).
+> **This fork** is pre-configured for [Clief Notes](https://www.skool.com/cliefnotes) for an **admin + two moderators** shipping **beginner ICM articles**. Scoring: **Beginner content engagement** (Impact 0.30 · Feasibility 0.20 · Channel 0.30 · Research 0.10 · Novelty 0.10). See [`shared/channel-alignment.md`](shared/channel-alignment.md) and [`_config/evaluation-criteria.md`](_config/evaluation-criteria.md). Upstream template: [banbury-cheese/ideation-workflow](https://github.com/banbury-cheese/ideation-workflow).
 
 A 5-stage AI workflow that takes a pile of raw ideas, feature requests, or community DMs and turns them into a prioritized, classified delivery strategy. Built on the [Interpretable Context Methodology (ICM)](https://github.com/RinDig/Model-Workspace-Protocol-MWP-) — folder structure as agent architecture.
 
 No framework. No code. Just folders, markdown files, and one AI agent reading the right context at the right moment.
+
+**How this fork uses it:** Feed beginner stuck points and topic ideas → get a ranked backlog of article briefs the mod team can assign. MWP workspace / software classification still runs when an idea is build-shaped rather than teach-shaped.
 
 ---
 
@@ -34,6 +36,8 @@ Raw ideas (DMs, notes, braindumps)
 - **MWP Track** — Ideas that can be delivered as folder-based AI workspaces (sequential, human-reviewed, repeatable workflows)
 - **Software Track** — Ideas that need custom code, apps, or infrastructure
 
+For Clief Notes mod use, Stage 05 should also call out **article briefs** when channel alignment says the best near-term delivery is a beginner teaching post.
+
 Each stage produces a plain markdown file you can read, edit, and approve before the next stage runs.
 
 ---
@@ -47,7 +51,7 @@ Each stage produces a plain markdown file you can read, edit, and approve before
 
 ### Setup (one time)
 
-This Clief Notes fork is already configured. Skip `setup` unless you want to re-onboard for a different brand.
+This Clief Notes fork is already configured for beginner-article engagement. Skip `setup` unless you want to re-onboard for a different brand.
 
 ```bash
 cd ideation-workflow
@@ -217,15 +221,16 @@ ideation-workflow/
 
 ## Priority Profiles
 
-During setup, you choose how dimensions are weighted. **This fork uses Community-first.**
+**This fork uses Beginner content engagement** (custom).
 
 | Profile | Impact | Feasibility | Channel | Research | Novelty |
 |---------|--------|-------------|---------|----------|---------|
-| **Balanced** (default) | 0.30 | 0.20 | 0.20 | 0.20 | 0.10 |
-| **Community-first** (active here) | 0.40 | 0.25 | 0.15 | 0.10 | 0.10 |
+| **Balanced** | 0.30 | 0.20 | 0.20 | 0.20 | 0.10 |
+| **Community-first** | 0.40 | 0.25 | 0.15 | 0.10 | 0.10 |
 | **Research-driven** | 0.20 | 0.15 | 0.20 | 0.35 | 0.10 |
 | **Content-driven** | 0.25 | 0.15 | 0.35 | 0.15 | 0.10 |
 | **Ship fast** | 0.25 | 0.35 | 0.20 | 0.10 | 0.10 |
+| **Beginner content engagement** (active) | 0.30 | 0.20 | 0.30 | 0.10 | 0.10 |
 
 You can also provide custom weights.
 
@@ -242,6 +247,8 @@ An idea fits MWP when the workflow is:
 - **Text-based I/O** — Inputs and outputs are markdown/JSON
 
 Ideas that need live APIs, concurrent processing, persistent databases, interactive UIs, or real-time data get classified as Software Required.
+
+Teaching ideas that are mainly articles should still be ranked highly via channel alignment; classification as MWP/software is secondary when the near-term delivery is a Skool post.
 
 ---
 
