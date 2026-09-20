@@ -2,31 +2,39 @@
 
 Short operating notes for the admin + two moderators.
 
+## Content types
+
+See `shared/content-types.md`. You ship three shapes:
+
+1. **Classroom articles** — full beginner teach pieces
+2. **Announcement / pointer posts** — feed posts that send people to those articles
+3. **Everyday responses** — in-thread replies on community posts
+
 ## Cadence
 
-- **Weekly:** One idea batch (stuck points + topic scraps) through Stages 01–05
-- **Output:** 3–5 assignable beginner article briefs
-- **Ship:** At least one article posted to Skool; others stay in backlog
+- **Weekly:** One idea batch through Stages 01–05 → article + announcement briefs
+- **Ongoing:** Everyday responses as threads appear (use the everyday-response template; same voice files)
+- **Ship:** At least one classroom article + its announcement per week when possible
 
 ## Brand voices
 
-Each of you has a voice file under `shared/voices/`. When a brief is assigned, draft only in that owner's voice. Drop the real voice docs into those files (rename `mod-1` / `mod-2` to real names when ready).
+Each of you has a voice file under `shared/voices/`. Every draft (article, announcement, or reply) loads **only** that owner's file.
 
 ## Batch hygiene
 
-- Use a batch slug like `2026-09-beginner-stuck-points`
-- Keep personal DMs anonymized in idea cards (`Requester: Community member`)
-- Prefer clusters that map to pillars in `shared/channel-alignment.md`
+- Batch slug like `2026-09-beginner-stuck-points`
+- Anonymize DMs in idea cards
+- Map clusters to pillars in `shared/channel-alignment.md`
 
 ## Assignment
 
-After Stage 05 checkpoint:
+After Stage 05:
 
-1. Pick top 3 briefs
-2. Assign owner + voice file + draft-by date
-3. Note engagement hook (question, poll, or “try this” prompt) on each brief
-4. Link the Skool post back here or in your mod tracker when live
+1. Pick top classroom articles
+2. Assign owner + voice + draft-by
+3. Require a paired announcement brief for each new article
+4. Note which everyday-response themes keep recurring (feed next intake)
 
 ## When to build a workspace instead
 
-If Stage 04 classifies something as strong MWP-fit **and** an article alone won’t unblock people, outline the workspace in Stage 05 and schedule a follow-on build. Default near-term delivery remains the article.
+If something is strongly MWP-fit and an article won't unblock people, outline a workspace — but default near-term delivery is still content types 1–3.
