@@ -2,7 +2,7 @@
 
 Configured for **Clief Notes** (https://www.skool.com/cliefnotes).
 
-**Operating context:** An admin and two moderators use this workspace to prioritize **beginner-focused ICM articles** that raise engagement. Idea batches may include Skool posts, Discord questions, DMs, competition confusion, and “I don’t get X” themes — not only product feature requests.
+**Operating context:** An admin and two moderators use this workspace to prioritize **beginner-focused ICM articles** that raise engagement. Idea batches may include Skool posts, Discord questions, DMs, competition confusion, and “I don’t get X” themes — not only product feature requests. Each writer drafts in their own brand voice (`shared/voices/`).
 
 ## Content Pillars
 
@@ -25,7 +25,8 @@ Configured for **Clief Notes** (https://www.skool.com/cliefnotes).
 
 - **Team:** 1 admin + 2 moderators
 - **Job of this pipeline:** Turn community confusion and idea scraps into a ranked backlog of **beginner articles** (and only secondarily into MWP workspace builds or software)
-- **Default deliverable shape:** Article brief → outline → Skool post (optional follow-on: mini workspace or competition tie-in)
+- **Default deliverable shape:** Article brief → outline → Skool post in the owner's brand voice (optional follow-on: mini workspace or competition tie-in)
+- **Voices:** `shared/voices/david.md`, `shared/voices/mod-1.md`, `shared/voices/mod-2.md` (rename placeholders when real docs are dropped in)
 - **Handoff:** Ranked briefs should be assignable across the three of you without re-explaining audience or pillars
 
 ## Strategic Goals
